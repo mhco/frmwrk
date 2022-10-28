@@ -1,0 +1,18 @@
+{
+    "name": "hewitt/frmwrk",
+    "description": "A bare-bones PHP framework for developers to use without the overhead of modules they don't need.",
+    "authors": [
+        {
+            "name": "Hewitt",
+            "email": "frmwrk@mh1.co"
+        }
+    ],
+    "require": {
+      "php": ">=8.0.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "frmwrk\\": "src/"
+      }
+    }
+}
