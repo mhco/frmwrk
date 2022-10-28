@@ -41,3 +41,11 @@ function redirect ($url = null)
     header('Location: ' . $url);
     exit;
 }
+
+//localization: translate function
+function __()
+{
+    global $localization;
+    $args = func_get_args();
+    return $localization->getTranslation(func_get_args());
+}
